@@ -4,6 +4,11 @@ if ! [ -x "$(command -v brew)" ]; then
   brew update
 fi
 
+if ! [ -x "$(command -v javac)" ]; then 
+  echo 'Install Java' >&2
+  brew cask install java
+fi
+
 if ! [ -x "$(command -v vertx)" ]; then
   echo 'Install Vert.x 3.0' >&2
   brew install vert.x

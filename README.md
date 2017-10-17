@@ -10,6 +10,7 @@ MIRO Internet of things team, Habiteeth IoT Platform on 3rd Global Innovation Fe
 
   - Created New Repository
   - Create AVR Build System as PlatformIO
+  - Restful API Server base on Vert.X
 
 
 You can also:
@@ -65,5 +66,12 @@ $ rails --version
 local run
 ```sh
 bin/rails server
+```
+
+>##### Using Restful API Server base on Vert.X
+api_server/install.sh
+
+```sh
+$ sh ./install.sh
 ```
 
