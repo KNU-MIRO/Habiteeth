@@ -1,6 +1,6 @@
 # Habiteeth IoT Platform
 
-MIRO Internet of things team, Habiteeth IoT Platform on 3rd Global Innovation Festa. 
+MIRO Internet of things team, Habiteeth IoT Platform
 
   - Hyeonsu Ha (project manager, iOS developer)
   - Dongho Choi (Embedded system developer)
