@@ -1,6 +1,6 @@
 # Habiteeth IoT Platform
 
-MIRO Internet of things team, Habiteeth IoT Platform
+MIRO Internet of things team, Habiteeth IoT Platform hat
 
   - Hyeonsu Ha (project manager, iOS developer)
   - Dongho Choi (Embedded system developer)
@@ -74,4 +74,3 @@ api_server/install.sh
 ```sh
 $ sh ./install.sh
 ```
-
