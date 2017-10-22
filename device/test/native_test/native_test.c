@@ -8,12 +8,16 @@
 //  NOTE: native code test script, API 테스트코드 작성(Arduino API 사용X)
 
 #include <Habiteeth.h>
+#include <UVController.h>
+
 #include <unity.h>
 
 #ifdef UNIT_TEST 
 
 int main(int argc, char **argv) {
     TEST_ASSERT_EQUAL(200, unit_test_adder(100, 100)); // unit test test
+    TEST_ASSERT_EQUAL(UV_LED_OFF, ultra_violet_led_control(UV_LED_OFF));
+    TEST_ASSERT_EQUAL(UV_LED_ON, ultra_violet_led_control(UV_LED_ON));
     return 0;
 }
 
