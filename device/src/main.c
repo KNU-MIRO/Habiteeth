@@ -19,11 +19,10 @@ void loop() {
     // TODO: Device work
 
     int a = 0;
-    for(int index = 0; index < 10; index++) {
-        a += index;
+    for(int i = 0; i < 10; i++) {
+        a += i;
     }
     printf(a);
-
 
     hello_miro(); // call test
 }
