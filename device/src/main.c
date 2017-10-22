@@ -17,6 +17,12 @@ void setup() {
     
 void loop() {
     // TODO: Device work
+    int a = 0;
+    for(int i = 0; i < 10; i++) {
+        a += i;
+    }
+    printf(a);
+
     hello_miro(); // call test
 }
 
