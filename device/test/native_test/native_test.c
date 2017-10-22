@@ -20,8 +20,14 @@ int main(int argc, char **argv) {
     TEST_ASSERT_EQUAL(200, unit_test_adder(100, 100)); // unit test test
     TEST_ASSERT_EQUAL(UV_LED_OFF, ultra_violet_led_control(UV_LED_OFF));
     TEST_ASSERT_EQUAL(UV_LED_ON, ultra_violet_led_control(UV_LED_ON));
+
     TEST_ASSERT_EQUAL(10,algorythm_test_dongyoung(1,4));
     TEST_ASSERT_EQUAL(9,algorythm_test_dongyoung(2,4));
+
+    TEST_ASSERT_EQUAL(60, algorythm_test_ho(3, 5));
+    TEST_ASSERT_EQUAL(120, algorythm_test_ho(1, 5));
+
+
     // TODO 테스트코드 작성하시오 2개 정도
 
     return 0;
@@ -42,7 +48,12 @@ int algorythm_test_dongyoung(int target, int source) {
     // TODO: 동호는  target에서 source까지의 숫자를 전부 곱하시오.
 int algorythm_test_ho(int target, int source) {
 
-    return 0;
+    int mul = 1;
+    for(int i = target; i <= source; i++) {
+        mul = mul * i;
+    }
+    return mul;
+
 }
 
 
