@@ -21,6 +21,7 @@ int main(int argc, char **argv) {
     TEST_ASSERT_EQUAL(UV_LED_OFF, ultra_violet_led_control(UV_LED_OFF));
     TEST_ASSERT_EQUAL(UV_LED_ON, ultra_violet_led_control(UV_LED_ON));
     TEST_ASSERT_EQUAL(10,algorythm_test_dongyoung(1,4));
+    TEST_ASSERT_EQUAL(9,algorythm_test_dongyoung(2,4));
     // TODO 테스트코드 작성하시오 2개 정도
 
     return 0;
@@ -30,11 +31,11 @@ int main(int argc, char **argv) {
 // TODO: 동영이는 target에서 source까지의 숫자를 전부 더하시오
 // ex: 2, 4 -> 2 + 3 + 4 -> 9
 int algorythm_test_dongyoung(int target, int source) {
-    for(int i; i>source; i++){
+    int a = 0;
+    for(int i=0; i<source; i++){
+      a += target;
       target += 1;
-      return target;
     }
-
     return 0;
 }
 
