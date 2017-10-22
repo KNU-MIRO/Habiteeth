@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
 // ex: 2, 4 -> 2 + 3 + 4 -> 9
 int algorythm_test_dongyoung(int target, int source) {
     int a = 0;
-    for(int i=0; i<source; i++){
+    for(int i=target; i<=source; i++){
       a += target;
       target += 1;
     }
