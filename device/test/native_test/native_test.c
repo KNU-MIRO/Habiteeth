@@ -36,8 +36,11 @@ int algorythm_test_dongyoung(int target, int source) {
     
     // TODO: 동호는  target에서 source까지의 숫자를 전부 곱하시오.
 int algorythm_test_ho(int target, int source) {
-        
-    return 0;
+    int mul=1;
+    for(int i = target; i <= source; i++){
+        mul = mul*i;
+    }
+    return mul;
 }
     
 
