@@ -7,6 +7,7 @@
 //
 
 #include <Habiteeth.h>
+#include <UVController.h>
 
 #ifndef UNIT_TEST 
 
@@ -16,7 +17,6 @@ void setup() {
     
 void loop() {
     // TODO: Device work
-
     hello_miro(); // call test
 }
 
