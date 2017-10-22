@@ -20,8 +20,9 @@ int main(int argc, char **argv) {
     TEST_ASSERT_EQUAL(200, unit_test_adder(100, 100)); // unit test test
     TEST_ASSERT_EQUAL(UV_LED_OFF, ultra_violet_led_control(UV_LED_OFF));
     TEST_ASSERT_EQUAL(UV_LED_ON, ultra_violet_led_control(UV_LED_ON));
-    TEST_ASSERT_EQUAL(60,algorythm_test_ho(3,5));
-
+    TEST_ASSERT_EQUAL(60, algorythm_test_ho(3, 5));
+    TEST_ASSERT_EQUAL(120, algorythm_test_ho(1, 5));
+    
     // TODO 테스트코드 작성하시오 2개 정도
  
     return 0;
