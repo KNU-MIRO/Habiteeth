@@ -17,9 +17,7 @@ void setup() {
     
 void loop() {
     // TODO: Device work
-    printf("hello");
     hello_miro(); // call test
 }
 
 #endif
-
