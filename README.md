@@ -74,3 +74,4 @@ api_server/install.sh
 ```sh
 $ sh ./install.sh
 ```
+현수형 안녕하세용~ㅎㅎㅎ
